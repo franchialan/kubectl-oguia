@@ -36,7 +36,7 @@
 - [Serviços](#services)
 - [Contas de Serviço](#service_accounts)
 - [StatefulSet](#statefulset)
-- [Opcões Comuns](#common_options)
+- [Opções Comuns](#common_options)
 - [Autor](#autor)
 
 <br></br>
