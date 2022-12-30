@@ -28,13 +28,13 @@
 - [Logs](#logs)
 - [Arquivos de Manifesto](#manifest_files)
 - [Namespaces](#namespaces)
-- [Nós](#nodes)
+- [Nodes](#nodes)
 - [Pods](#pods)
 - [Controles de Replicação](#replication_controllers)
 - [ReplicaSet](#replicaset)
-- [Segredos](#secrets)
-- [Serviços](#services)
-- [Contas de Serviço](#service_accounts)
+- [Secrets](#secrets)
+- [Services](#services)
+- [Service Accounts](#service_accounts)
 - [StatefulSet](#statefulset)
 - [Opções Comuns](#common_options)
 - [Autor](#autor)
@@ -356,7 +356,7 @@ kubectl top namespace <namespace_name>
 
 <br></br>
 
-## 🖥️ Nós <a name = "nodes"></a><br></br>
+## 🖥️ Nodes <a name = "nodes"></a><br></br>
 
 O Kubernetes executa sua carga de trabalho colocando contêineres em Pods para serem executados em Nós. Um nó pode ser uma máquina virtual ou física, dependendo do cluster.<br>
 Cada nó é gerenciado pela camada de gerenciamento e contém os serviços necessários para executar Pods.<br>
@@ -543,7 +543,7 @@ kubectl scale --replicas=[x]
 
 <br></br>
 
-## 🔑 Segredos <a name = "secrets"></a><br></br>
+## 🔑 Secrets <a name = "secrets"></a><br></br>
 
 Um Secret é um objeto que contém uma pequena quantidade de informação sensível, como senhas, tokens ou chaves.<br> 
 Este tipo de informação poderia, em outras circunstâncias, ser colocada diretamente em uma configuração de Pod ou em uma imagem de contêiner.<br> 
@@ -578,7 +578,7 @@ kubectl delete secret <secret_name>
 
 <br></br>
 
-## 🚚 Serviços <a name = "services"></a><br></br>
+## 🚚 Services <a name = "services"></a><br></br>
 
 Uma maneira abstrata de expor um aplicativo em execução em um conjunto de pods como um serviço de rede.<br>
 Com o Kubernetes, você não precisa modificar seu aplicativo para usar um mecanismo de descoberta de serviço desconhecido.<br> 
@@ -610,7 +610,7 @@ kubectl edit services
 
 <br></br>
 
-## 🪪 Contas de Serviço <a name = "service_accounts"></a><br></br>
+## 🪪 Service Accounts <a name = "service_accounts"></a><br></br>
 
 Uma conta de serviço fornece uma identidade para processos executados em um pod e mapeia para um objeto ServiceAccount.<br> 
 Ao se autenticar no servidor API, você se identifica como um usuário específico.<br> 
@@ -697,5 +697,4 @@ kubectl create -f ./newpod.json
 
 - [@franchialan](https://github.com/franchialan)
 
-- [EazyOps Academy](https:eazyops.com.br)
-
+- [EazyOps Academy](https://eazyops.com.br)
