@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="https://kubernetes.io/docs/home/" rel="kubernetes.io">
  <img width=200px height=200px src="https://upload.wikimedia.org/wikipedia/labs/thumb/b/ba/Kubernetes-icon-color.svg/2110px-Kubernetes-icon-color.svg.png" alt="Project logo"></a>
 </p>
 
